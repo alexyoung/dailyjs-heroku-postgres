@@ -1,4 +1,4 @@
 .DS_Store
-*.sw?
+*.swp
 node_modules/
 tmp/
