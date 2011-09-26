@@ -1,0 +1,9 @@
+{
+  "name": "dailyjs-heroku-postgres",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "2.4.5"
+  , "pg": "0.5.7"
+  }
+}
+
