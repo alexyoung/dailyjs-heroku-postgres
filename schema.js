@@ -1,4 +1,4 @@
-var pg = require('pg')
+var pg = require('pg').native
   , connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/dailyjs'
   , client
   , query;
