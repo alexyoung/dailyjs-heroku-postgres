@@ -1,6 +1,6 @@
 var express = require('express')
   , app = express.createServer(express.logger())
-  , pg = require('pg').native
+  , pg = require('pg')
   , connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/dailyjs'
   , start = new Date()
   , port = process.env.PORT || 3000
