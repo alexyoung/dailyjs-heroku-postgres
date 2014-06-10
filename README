@@ -1,0 +1,13 @@
+dailyjs-heroku-postgres
+===
+installation
+---
+```
+heroku create --stack cedar
+git push heroku master
+heroku addons:add heroku-postgresql
+heroku run node schema.js
+heroku open
+```
+
+See Detailed Documentation http://dailyjs.com/2011/09/26/heroku/
